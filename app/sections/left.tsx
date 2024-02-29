@@ -82,8 +82,8 @@ export default function Left() {
             <span>
                 <h3>Experience</h3>
                 <ul>
-                    <li>Lead developer at <a href="https://woof-os.github.io">Woof OS</a>.
-                    </li><li>Web developer at <a href="https://kreatis.io">Kreatis</a>.
+                    <li>Lead developer at <Link target="_blank" href="https://woof-os.github.io">Woof OS</Link>.
+                    </li><li>Web developer at <Link target="_blank" href="https://kreatis.io">Kreatis</Link>.
                     </li>
                 </ul>
             </span>
