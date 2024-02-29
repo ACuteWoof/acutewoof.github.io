@@ -91,17 +91,17 @@ export default function Left() {
                 <h3>Contact Me</h3>
                 <ul>
                     <li>
-                        Email: <a href="mailto:sutharshanvithushan@gmail.com">
+                        Email: <Link target="_blank" href="mailto:sutharshanvithushan@gmail.com">
                             sutharshanvithushan@gmail.com
-                        </a>
+                        </Link>
                     </li>
-                    <li>Discord: @acutewoof |&nbsp;
-                        <a href="https://discord.gg/uxr7VHEGgA">
+                    <li>Discord: <Link target="_blank" href="https://discord.com/invite/um92wXVx">@acutewoof</Link>&nbsp;|&nbsp;
+                        <Link target="_blank" href="https://discord.gg/uxr7VHEGgA">
                             server
-                        </a><br />
+                        </Link><br />
                     </li>
                     <li>
-                        Instagram:&nbsp;<a href="https://instagram.com/acutewoof">@acutewoof</a>
+                        Instagram:&nbsp;<Link target="_blank" href="https://instagram.com/acutewoof">@acutewoof</Link>
                     </li>
                 </ul>
             </span>
