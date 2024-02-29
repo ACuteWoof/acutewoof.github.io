@@ -1,10 +1,7 @@
-"use client"
-
 import Image from "next/image";
 import { PieceProps } from "@/app/types";
 import { mono as titleFont } from "../fonts";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
 import Link from "next/link";
 
 export default function Piece(
