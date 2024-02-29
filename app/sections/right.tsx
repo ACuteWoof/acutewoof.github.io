@@ -42,7 +42,7 @@ export default function Right() {
     ]
 
     return <div className="bg-primary-foreground lg:h-screen w-full lg:overflow-auto p-8 lg:p-24 flex flex-col gap-8">
-        <h1 className={"text-4xl font-medium " + titleFont.className}>Projects</h1>
+        <span className={"text-lg font-medium text-muted-foreground lowercase " + titleFont.className}>// Projects</span>
         <div className="flex flex-col gap-8">
             {
                 projects.map((project, index) => <Piece key={index} {...project} className="m-4" />)
