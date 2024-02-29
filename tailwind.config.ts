@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        "0": "url('https://images.unsplash.com/photo-1620812097331-ff636155488f?auto=format&w=1280')",
+        "1": "url('https://kreatis.io/images/bg-1.jpeg')",
+        "2": "url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?auto=format&w=1280&fit=crop&q=80&w=2145&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -74,7 +79,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
 
 export default config;
