@@ -76,6 +76,12 @@
   ::-webkit-scrollbar-thumb {
     @apply relative flex-1 rounded-none bg-muted-foreground;
   }
+  a {
+    @apply leading-none underline-offset-2 transition-all duration-150 ease-in-out;
+  }
+  a:hover {
+    @apply bg-foreground text-background decoration-foreground;
+  }
 }
 
 @layer base {
