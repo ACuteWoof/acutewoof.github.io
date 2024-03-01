@@ -4,7 +4,7 @@ export const projects: ProjectInfo[] = [
         {
             title: "Woof OS",
             description: "An Arch Linux respin, with the Qtile window manager, calamares installer to install my entire Arch Linux rice.",
-            image: "https://www.site-shot.com/cached_image/H2q4Ytc0Ee6_yAJCrBEAAg",
+            image: "/images/woof-os.png",
             link: "https://www.woof-os.github.io",
             tags: ["Linux", "OS", "Python", "Shell Script"]
         },
