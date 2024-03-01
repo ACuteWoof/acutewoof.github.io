@@ -19,7 +19,7 @@ export const projects: ProjectInfo[] = [
             title: "Startpage",
             description: "A startpage for your browser, with Spotify intergration, a todo list, and a note keeper.",
             link: "https://startpage-lemon.vercel.app/",
-            image: "https://www.site-shot.com/cached_image/Btkn9tc6Ee6_yAJCrBEAAg",
+            image: "/images/startpage.png",
             tags: ["Next", "React", "Typescript", "TailwindCSS"]
         },
         {
@@ -32,7 +32,7 @@ export const projects: ProjectInfo[] = [
             title: "Kreatis",
             description: "A web development agency.",
             link: "https://kreatis.io",
-            image: "https://www.site-shot.com/cached_image/39FZbNc5Ee66XAJCrBEAAg",
+            image: "/images/kreatis.png",
             tags: ["Next", "React", "Typescript", "TailwindCSS", "Framer Motion"]
         },
     ]
