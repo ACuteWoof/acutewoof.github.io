@@ -15,7 +15,7 @@ export default function Left() {
             <h1 className={titleFont.className + " mb-3"}>Vithushan</h1>
             <span className="flex gap-4 [&>div:hover]:cursor-pointer mb-8" >
                 <Link className="hover:bg-transparent" target="_blank" href="https://github.com/acutewoof"><Badge variant="secondary">Github&nbsp;<OpenInNewWindowIcon /></Badge></Link>
-                <Link className="hover:bg-transparent" target="_blank" href="https://kreatis.io"><Badge variant="secondary">Kreatis.io&nbsp;<OpenInNewWindowIcon /></Badge></Link>
+                <Link className="hover:bg-transparent" target="_blank" href="https://buymeacoffee.com/acutewoof"><Badge variant="secondary">Buy Me A Coffee&nbsp;<OpenInNewWindowIcon /></Badge></Link>
             </span>
             <p>
                 A web developer with a passion for design and technology.
