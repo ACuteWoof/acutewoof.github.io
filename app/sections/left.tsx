@@ -10,11 +10,11 @@ import {
 } from "@/app/components/ui/accordion"
 
 export default function Left() {
-    return <div className="h-fit lg:h-screen w-full py-12 px-8 lg:py-14 lg:px-24 lg:pb-12 lg:overflow-auto">
+    return <div className="h-fit lg:h-screen w-full py-12 px-8 lg:p-24 lg:pb-12 lg:overflow-auto">
         <article className={"prose dark:prose-invert"}>
             <h1 className={titleFont.className + " mb-3"}>Vithushan</h1>
             <p>
-                A web developer with a passion for design and technology.
+                A developer with a passion for design and technology.
             </p>
             <span>
                 <h3>Skills</h3>
@@ -78,13 +78,24 @@ export default function Left() {
             <span>
                 <h3>Experience</h3>
                 <ul>
-                    <li>Lead developer at <Link target="_blank" href="https://woof-os.github.io">Woof OS</Link>.
-                    </li><li>Web developer at <Link target="_blank" href="https://kreatis.io">Kreatis</Link>.
+                    <li>Web developer at <Link target="_blank" href="https://kreatis.io">Kreatis</Link>.</li>
+                </ul>
+            </span>
+           <span>
+                <h3>Donate</h3>
+                <ul>
+                    <li className="text-wrap break-all">
+                        Monero: AvKjLpQzaE8Aj8A4vgRyuUYsX7GdGo8SddcmMiHf1H2L55CGMUxKUmZUovZtWRkw9LuE4Zr6PRzQg9ivMeueGwa38YHx7u
+                    </li>
+                    <li>
+                        Buymeacoffee: <Link target="_blank" href="https://buymeacoffee.com/acutewoof">
+                            acutewoof
+                        </Link>
                     </li>
                 </ul>
             </span>
             <span>
-                <h3>Contact Me</h3>
+                <h3>Contact</h3>
                 <ul>
                     <li>
                         Email: <Link target="_blank" href="mailto:sutharshanvithushan@gmail.com">
@@ -98,19 +109,7 @@ export default function Left() {
                     </li>
                 </ul>
             </span>
-            <span>
-                <h3>Donate</h3>
-                <ul>
-                    <li className="text-wrap break-all">
-                        Monero: AvKjLpQzaE8Aj8A4vgRyuUYsX7GdGo8SddcmMiHf1H2L55CGMUxKUmZUovZtWRkw9LuE4Zr6PRzQg9ivMeueGwa38YHx7u
-                    </li>
-                    <li>
-                        Buymeacoffee: <Link target="_blank" href="https://buymeacoffee.com/acutewoof">
-                            acutewoof
-                        </Link>
-                    </li>
-                </ul>
-            </span>
+ 
         </article>
     </div >
 }
