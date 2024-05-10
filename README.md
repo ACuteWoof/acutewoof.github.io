@@ -1,1 +1,1 @@
-Moved to https://lewoof.xyz
+Moved to [https://lewoof.xyz](https://lewoof.xyz)
