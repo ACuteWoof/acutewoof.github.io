@@ -10,13 +10,9 @@ import {
 } from "@/app/components/ui/accordion"
 
 export default function Left() {
-    return <div className="h-fit lg:h-screen w-full py-12 px-8 lg:p-24 lg:pb-12 lg:overflow-auto">
+    return <div className="h-fit lg:h-screen w-full py-12 px-8 lg:py-14 lg:px-24 lg:pb-12 lg:overflow-auto">
         <article className={"prose dark:prose-invert"}>
             <h1 className={titleFont.className + " mb-3"}>Vithushan</h1>
-            <span className="flex gap-4 [&>div:hover]:cursor-pointer mb-8" >
-                <Link className="hover:bg-transparent" target="_blank" href="https://github.com/acutewoof"><Badge variant="secondary">Github&nbsp;<OpenInNewWindowIcon /></Badge></Link>
-                <Link className="hover:bg-transparent" target="_blank" href="https://buymeacoffee.com/acutewoof"><Badge variant="secondary">Buy Me A Coffee&nbsp;<OpenInNewWindowIcon /></Badge></Link>
-            </span>
             <p>
                 A web developer with a passion for design and technology.
             </p>
@@ -95,13 +91,23 @@ export default function Left() {
                             sutharshanvithushan@gmail.com
                         </Link>
                     </li>
-                    <li>Discord: <Link target="_blank" href="https://discord.com/invite/um92wXVx">@acutewoof</Link>&nbsp;|&nbsp;
-                        <Link target="_blank" href="https://discord.gg/uxr7VHEGgA">
-                            server
-                        </Link><br />
+                    <li>
+                        Matrix: <Link target="_blank" href="https://matrix.to/#/@acutewoof:mx.lewoof.xyz">
+                            @acutewoof:mx.lewoof.xyz
+                        </Link>
+                    </li>
+                </ul>
+            </span>
+            <span>
+                <h3>Donate</h3>
+                <ul>
+                    <li className="text-wrap break-all">
+                        Monero: AvKjLpQzaE8Aj8A4vgRyuUYsX7GdGo8SddcmMiHf1H2L55CGMUxKUmZUovZtWRkw9LuE4Zr6PRzQg9ivMeueGwa38YHx7u
                     </li>
                     <li>
-                        Instagram:&nbsp;<Link target="_blank" href="https://instagram.com/acutewoof">@acutewoof</Link>
+                        Buymeacoffee: <Link target="_blank" href="https://buymeacoffee.com/acutewoof">
+                            acutewoof
+                        </Link>
                     </li>
                 </ul>
             </span>
