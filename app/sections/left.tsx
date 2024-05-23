@@ -1,7 +1,5 @@
 import Link from "next/link"
-import { Badge } from "../components/ui/badge"
 import { mono as titleFont } from "../fonts"
-import { OpenInNewWindowIcon } from "@radix-ui/react-icons"
 import {
     Accordion,
     AccordionContent,
