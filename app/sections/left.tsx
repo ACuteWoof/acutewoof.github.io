@@ -6,11 +6,13 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/app/components/ui/accordion"
+import { Badge } from "../components/ui/badge"
 
 export default function Left() {
     return <div className="h-fit lg:h-screen w-full py-12 px-8 lg:p-24 lg:pb-12 lg:overflow-auto">
         <article className={"prose dark:prose-invert"}>
             <h1 className={titleFont.className + " mb-3"}>Vithushan</h1>
+	    <Link href="https://github.com/acutewoof"><Badge variant="secondary">github.com/acutewoof</Badge></Link>
             <p>
                 A developer with a passion for design and technology.
             </p>
