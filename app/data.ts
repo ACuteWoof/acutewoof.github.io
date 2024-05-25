@@ -1,15 +1,7 @@
 import { ProjectInfo } from "./types";
 
 export const projects: ProjectInfo[] = [
-  {
-    title: "Woof OS",
-    description:
-      "An Arch Linux respin, with the Qtile window manager, calamares installer to install my entire Arch Linux rice.",
-    image: "/images/woof-os.png",
-    link: "https://os.lewoof.xyz",
-    tags: ["Linux", "OS", "Python", "Shell Script"],
-  },
-  {
+ {
     title: "E-Commerce Dashboard for GSL Wholesalers LTD",
     description:
       "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
@@ -46,4 +38,12 @@ export const projects: ProjectInfo[] = [
     image: "/images/kreatis.png",
     tags: ["Next", "React", "Typescript", "TailwindCSS", "Framer Motion"],
   },
+  {
+    title: "Woof OS",
+    description:
+      "An Arch Linux respin, with the Qtile window manager, calamares installer to install my entire Arch Linux rice.",
+    image: "/images/woof-os.png",
+    link: "https://os.lewoof.xyz",
+    tags: ["Linux", "OS", "Python", "Shell Script"],
+  }
 ];
