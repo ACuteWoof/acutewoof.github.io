@@ -2,14 +2,6 @@ import { ProjectInfo } from "./types";
 
 export const projects: ProjectInfo[] = [
  {
-    title: "Turtle Wif Straw",
-    description:
-      "A site for a memecoin.",
-    link: "https://turtlewifstraw.fun",
-    image: "/images/turtle.png",
-    tags: ["Next", "React", "Typescript", "TailwindCSS"],
-  },
- {
     title: "E-Commerce Dashboard for GSL Wholesalers LTD",
     description:
       "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
