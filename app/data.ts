@@ -1,13 +1,28 @@
 import { ProjectInfo } from "./types";
 
 export const projects: ProjectInfo[] = [
- {
+  {
+    title: "Radiant Tools",
+    description:
+      "Tools for Solana; features only a Solana mixer for now. More to come.",
+    link: "https://radiant-tools.com",
+    image: "/images/radiant-tools.png",
+    tags: [
+      "Web3",
+      "ExpressJS",
+      "Next",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+    ],
+  },
+  {
     title: "E-Commerce Dashboard for GSL Wholesalers LTD",
     description:
       "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
     link: "https://github.com/kreatis-io/gsl-dashboard-nextjs",
     image: "/images/gsl.png",
-    tags: ["Next", "React", "Typescript", "TailwindCSS", "Shadcn UI"],
+    tags: ["Next", "React", "TypeScript", "TailwindCSS"],
   },
   {
     title: "Startpage",
@@ -15,17 +30,17 @@ export const projects: ProjectInfo[] = [
       "A startpage for your browser, with Spotify intergration, a todo list, and a note keeper.",
     link: "https://startpage-lemon.vercel.app/",
     image: "/images/startpage.png",
-    tags: ["Next", "React", "Typescript", "TailwindCSS"],
+    tags: ["Next", "React", "TypeScript", "TailwindCSS"],
   },
   {
     title: "Obsek Gallery",
     description: "Amateur astrophotography gallery.",
     link: "https://acutewoof.is-a.dev/gallery",
-    image: "https://www.kreatis.io/images/obsek.png",
+    image: "/images/obsek.png",
     tags: [
       "Next",
       "React",
-      "Typescript",
+      "TypeScript",
       "Firebase",
       "TailwindCSS",
       "Framer Motion",
@@ -36,7 +51,7 @@ export const projects: ProjectInfo[] = [
     description: "A web development agency.",
     link: "https://kreatis.io",
     image: "/images/kreatis.png",
-    tags: ["Next", "React", "Typescript", "TailwindCSS", "Framer Motion"],
+    tags: ["Next", "React", "TypeScript", "TailwindCSS", "Framer Motion"],
   },
   {
     title: "Woof OS",
@@ -45,5 +60,5 @@ export const projects: ProjectInfo[] = [
     image: "/images/woof-os.png",
     link: "https://os.lewoof.xyz",
     tags: ["Linux", "OS", "Python", "Shell Script"],
-  }
+  },
 ];
