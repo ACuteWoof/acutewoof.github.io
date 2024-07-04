@@ -82,6 +82,13 @@
   a:hover {
     @apply bg-foreground text-background decoration-foreground;
   }
+  a.exception {
+    @apply leading-none underline-offset-2 transition-all duration-150 ease-in-out;
+  }
+  a.exception:hover {
+    @apply bg-transparent text-foreground decoration-foreground;
+  }
+
 }
 
 @layer base {
