@@ -129,6 +129,13 @@ export default function Left() {
                 sutharshanvithushan@gmail.com
               </Link>
             </li>
+            <li>Discord: @acutewoof</li>
+            <li>
+              Instagram:{" "}
+              <Link target="_blank" href="https://instagram.com/acutewoof">
+                @acutewoof
+              </Link>
+            </li>
           </ul>
         </span>
       </article>
