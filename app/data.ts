@@ -2,7 +2,7 @@ import { ProjectInfo } from "./types";
 
 export const projects: ProjectInfo[] = [
   {
-    title: "Woof Press",
+    title: "WoofPress",
     description:
       "Printing books (and compilations) that are either out of print, or hard to find.",
     link: "https://press.lewoof.xyz",
