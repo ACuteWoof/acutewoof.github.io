@@ -2,19 +2,20 @@ import { ProjectInfo } from "./types";
 
 export const projects: ProjectInfo[] = [
   {
+    title: "Woof Press",
+    description:
+      "Printing books (and compilations) that are either out of print, or hard to find.",
+    link: "https://press.lewoof.xyz",
+    image: "/images/press.png",
+    tags: ["HTML", "LaTeX", "Lulu", "TailwindCSS"],
+  },
+  {
     title: "Radiant Tools",
     description:
       "Tools for Solana; features only a Solana mixer for now. More to come.",
     link: "https://radiant-tools.com",
     image: "/images/radiant-tools.png",
-    tags: [
-      "Web3",
-      "ExpressJS",
-      "Next",
-      "React",
-      "TypeScript",
-      "TailwindCSS",
-    ],
+    tags: ["Web3", "ExpressJS", "Next", "React", "TypeScript", "TailwindCSS"],
   },
   {
     title: "E-Commerce Dashboard for GSL Wholesalers LTD",
