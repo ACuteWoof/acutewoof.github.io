@@ -7,7 +7,7 @@ export const projects: ProjectInfo[] = [
       "Printing books (and compilations) that are either out of print, or hard to find.",
     link: "https://press.lewoof.xyz",
     image: "/images/press.png",
-    tags: ["HTML", "TailwindCSS"],
+    tags: ["HTML", "TailwindCSS", "LaTeX"],
   },
   {
     title: "Radiant Tools",
