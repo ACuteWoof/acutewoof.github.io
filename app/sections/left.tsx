@@ -84,14 +84,24 @@ export default function Left() {
           </ul>
         </span>
         <span>
-          <h3>Experience</h3>
+          <h3>Actively working on:</h3>
           <ul>
             <li>
-              Web developer at{" "}
+              <Link target="_blank" href="https://press.lewoof.xyz">
+                WoofPress
+              </Link>
+            </li>
+            <li>
+              Projects at{" "}
               <Link target="_blank" href="https://kreatis.io">
                 Kreatis
               </Link>
               .
+            </li>
+            <li>
+              <Link target="_blank" href="https://os.lewoof.xyz">
+                Woof OS
+              </Link>
             </li>
           </ul>
         </span>
