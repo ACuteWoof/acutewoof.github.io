@@ -13,10 +13,15 @@ export default function Left() {
     <div className="h-fit lg:h-screen w-full py-12 px-8 lg:p-24 lg:pb-12 lg:overflow-auto">
       <article className={"prose dark:prose-invert"}>
         <h1 className={titleFont.className + " mb-3"}>Vithushan</h1>
-        <Link href="https://github.com/acutewoof" className="exception">
-          <Badge variant="secondary">github.com/acutewoof</Badge>
-        </Link>
-        <p>A developer with a passion for design and technology.</p>
+        <div className="flex gap-2">
+          <Link href="https://github.com/acutewoof" className="exception">
+            <Badge variant="secondary">Github</Badge>
+          </Link>
+          <Link href="https://linkedin.com/in/vithushan-sutharsan-849b99243" className="exception">
+            <Badge variant="secondary">LinkedIn</Badge>
+          </Link>
+        </div>
+        <p>A student with passion for technology - especially open source.</p>
         <span>
           <h3>Skills</h3>
           <ul>
@@ -111,6 +116,13 @@ export default function Left() {
             <li className="text-wrap break-all">
               Monero:
               AvKjLpQzaE8Aj8A4vgRyuUYsX7GdGo8SddcmMiHf1H2L55CGMUxKUmZUovZtWRkw9LuE4Zr6PRzQg9ivMeueGwa38YHx7u
+            </li>
+            <li className="text-wrap break-all">
+              Solana: 6BecuGmLuD7JJEbQuV7mNqUNZ3i8WPxNC5zL63oAhRJH
+            </li>
+            <li className="text-wrap break-all">
+              Bitcoin:
+              bc1pfa26nutqw2vnwltv6v4jh3ee34nduh9cta3x20kyr7v0ad4z4vhqsr9wrz
             </li>
             <li>
               Buymeacoffee:{" "}
