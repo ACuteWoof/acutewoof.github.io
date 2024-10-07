@@ -50,7 +50,7 @@ export const projects: ProjectInfo[] = [
   {
     title: "Kreatis",
     description: "A web development agency.",
-    link: "https://kreatis.io",
+    link: "https://kreatis.lewoof.xyz",
     image: "/images/kreatis.png",
     tags: ["Next", "React", "TypeScript", "TailwindCSS", "Framer Motion"],
   },

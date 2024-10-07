@@ -98,7 +98,7 @@ export default function Left() {
             </li>
             <li>
               Projects at{" "}
-              <Link target="_blank" href="https://kreatis.io">
+              <Link target="_blank" href="https://kreatis.lewoof.xyz">
                 Kreatis
               </Link>
               .
